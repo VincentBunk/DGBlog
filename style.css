@@ -1,0 +1,112 @@
+/*
+Theme Name: Deine Geest Blog
+Description: Wordpress Theme für den "Deine Geest Blog"
+Author: urbanista
+Author URI: http://www.urbanista.de/
+Version: 1.0
+.
+© Vincent Bunk
+.
+*/
+
+/* --- Imports --- */
+@font-face {
+	font-family: 'UniversNext';
+	src: url('styles/UniversLTStd.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'UniversNextBold';
+	src: url('styles/UniversLTStd-BoldCn.otf') format('opentype');
+}
+
+/* --- Global styles --- */
+body {
+	padding-top: 20px;
+	font-family: 'UniversNext' !important;
+	color: #646262 !important;
+}
+
+h1 {
+	font-family: 'UniversNextBold' !important;
+}
+
+h2 {
+	font-size: 24px !important;
+}
+
+/* --- Specific styling and layouting --- */
+.post_control {
+	min-height: 300px;
+	margin: 1px;
+	padding: 20px;
+	border: none;
+}
+
+.entry-thumbnail {
+	background: #FFF;
+	min-height: 85px;
+}
+
+.entry-utility, #nav-below {
+	display: none;
+	visibility: hidden;
+}
+
+.newest_wrapper {
+	width: 485px;
+	height: 265px;
+}
+
+a.backlink {
+	display: block;
+	font-size: 15px !important;
+	font-weight: 600;
+	margin: 20px 0 20px 0;
+}
+
+h2.entry-title {
+	margin-top: 0px !important;
+}
+
+.slight_margin_left, .wp-pagenavi {
+	margin-left: 2% !important;
+}
+
+#header {
+	display: none;
+}
+
+.cat_hl a, .cat_hl a:hover {
+	color: #646262 !important;
+	text-decoration: none !important;
+	font-weight: 800;
+}
+
+/* Styling for 'hamburg.de' Dropdown Navi */
+#navigation .main-navigation li ul, #navigation .main-navigation li {
+	background-color: #FFF !important;
+	z-index: 10000 !important;
+	opacity: 1 !important;
+}
+
+/* --- Media queries --- */
+/* Mobile */
+@media(max-width:767px) {
+
+}
+
+/* Tablet */
+@media(min-width:768px) {
+
+}
+
+/* Laptop */
+@media(min-width:992px) {
+
+}
+
+/* Desktop */
+@media(min-width:1200px) {
+
+}

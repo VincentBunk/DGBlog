@@ -1,0 +1,10 @@
+# OS Junk
+*.DS_Store
+
+# Fonts
+*.otf
+*.eot
+*.svg
+*.ttf
+*.woff
+*.woff2
